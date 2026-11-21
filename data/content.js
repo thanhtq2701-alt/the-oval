@@ -5703,7 +5703,7 @@ const CARDS = {
               { text: "Broadcast daily talks", outcome: "A disembodied voice from the deep core. You are the colony's heart, even if its eyes can no longer find you.", approval: 18, unrest: 12, courage: -10, nextAct: 23 },
               { text: "Invite the cabinet to the bunker", outcome: "The full weight of the state is now compressed into a few tunnels of rock. Every decision is made with the echoes of the deep core.", party: 15, unrest: 15, eco: -10, nextAct: 23 },
               { text: "Lead a daring supply run", outcome: "The Commander at the helm of a supply shuttle. Your courage is absolute, and for once, the people see the person, not the title.", approval: 15, courage: 25, unrest: -15, nextAct: 23 },
-              { text: "Hand over power to your Deputy", outcome: "The quietest path. You step aside to let a new leader face the fire, while you remain in the safety of the dark.", unrest: -25, party: 18, approval: -10, nextAct: 23 }
+              { text: "Delegate daily command to your Deputy", outcome: "The quietest path. Your Deputy faces the fire in the open, while you keep the final word from the safety of the dark.", unrest: -25, party: 18, approval: -10, nextAct: 23 }
             ]
           },
           {
@@ -6689,7 +6689,7 @@ const CARDS = {
       {
         id: 'resigned', title: 'The Resignation', emoji: '🚪', check: gs => gs.resigned,
         tagline: 'You chose to walk away.',
-        narrative: "With the station split by barricades, you offered your office to the people, and they took it. You leave with your life and your dignity, but the work you started will be finished, or undone, by someone else.",
+        narrative: "When holding on would have cost the colony more than letting go, you set down your office of your own free will. You leave with your life and your dignity, but the work you started will be finished, or undone, by someone else.",
         profile: 'The One Who Stepped Aside'
       },
       { 
