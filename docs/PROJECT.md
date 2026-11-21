@@ -26,7 +26,7 @@ Cập nhật lần cuối: 15/11/2026. Tài liệu cũ (tháng 10/2026) nằm tr
 | Hòa phiếu | Hòa tuyệt đối → lấy **trung bình hiệu ứng** các lá hòa; lệch (3–1) → theo số đông |
 | Công bằng đội lớn/nhỏ | Mỗi world cùng số thẻ và cùng lượt dùng thẻ; đội nhỏ +2% sản xuất mỗi người thiếu; mục tiêu đội 4 vs đội 1 ≈ 51–52% (đạt 51%) |
 | Thời gian | Bỏ phiếu 45 giây (30/45/75), báo cáo 12 giây |
-| Từ chức (The Oval) | "Offer your resignation": Approval < 50 **lúc đề nghị** (số người chơi đang thấy) → dân chấp nhận, ván kết thúc (The Resignation); ≥ 50 → ở lại. 15 lựa chọn khác trong hồi III tuyến Revolution có lời kể là rời ghế ("Resign…", "Release them and resign", "Retire from public life", "Sign the papers and go quietly") → kết thúc ván ngay bằng The Resignation, không cần dân đồng ý (`leavesOffice`, chốt 15/11/2026) |
+| Từ chức (The Oval) | "Offer your resignation": Approval < 50 **lúc đề nghị** (số người chơi đang thấy) → dân chấp nhận, ván kết thúc (The Resignation); ≥ 50 → ở lại. 15 lựa chọn khác trong hồi III tuyến Revolution có lời kể là rời ghế ("Resign…", "Release them and resign", "Retire from public life", "Sign the papers and go quietly") → kết thúc ván ngay bằng The Resignation, không cần dân đồng ý (`leavesOffice`, chốt 15/11/2026). "Delegate daily command to your Deputy" (hồi III.15 tuyến Convergence, trước là "Hand over power to your Deputy") **không** kết thúc ván: chỉ giao quyền điều hành hằng ngày, câu chữ sửa cho khỏi hiểu nhầm là rời ghế. Lời kể The Resignation viết chung cho mọi lý do tự rời ghế, không gắn bối cảnh riêng (chốt 21/11/2026) |
 | Phế truất trong cách mạng | Approval ≤ 0 hoặc Economy ≤ 10 trong tuyến Revolution → The Impeached |
 | Chấm dứt nhiệm kỳ / kế nhiệm (chốt 15/11/2026) | **Không có kế nhiệm**: giống Fleet Council hết lượt là hết trận, ván chơi đơn kết thúc khi hết số lượt hoặc khi bị phế truất/từ chức |
 | Bối cảnh (chốt 15/11/2026) | Cả hai chế độ ở cùng một bối cảnh vũ trụ. Chơi đơn: người chơi là **Commander** của một thuộc địa/trạm vũ trụ, điều hành từ **the Oval** (khoang chỉ huy); quốc gia → colony/station, nước đối thủ → rival colonies, cường quốc → the great stations, Quốc hội → Station Council, Tòa tối cao → High Tribunal, LHQ → Sector Assembly, dầu → fuel, hạt nhân → antimatter, đô la → credits; thanh "International Tension" → "Interstellar Tension". Giữ nguyên thế khó xử của từng tình huống và mọi con số |
@@ -89,6 +89,7 @@ Cập nhật lần cuối: 15/11/2026. Tài liệu cũ (tháng 10/2026) nằm tr
 | #22 | `balance_multi_1`: ước tính đột kích tính cả 10 Năng lượng của chuyến đột kích (khớp trận thật); bot hạ ngưỡng đột kích để giữ tần suất cũ |
 | #23 | `balance_solo_2`: 15 lựa chọn "rời ghế" trong tuyến Revolution kết thúc ván bằng The Resignation; "Offer your resignation" xét Approval lúc đề nghị (+1 test) |
 | #24 | Đổi tên repo `Hackathon` → `the-oval`: README, hashtag chia sẻ `#TheOval`, ghi quyết định; ghi nhận đã gỡ Vercel |
+| #25 | Chơi đơn: lựa chọn Deputy (tuyến Convergence) đổi câu chữ thành giao quyền điều hành, không rời ghế; lời kể The Resignation dùng chung cho mọi lý do rời ghế |
 
 ## 5. Lỗi trong tài liệu cũ — đối chiếu
 
