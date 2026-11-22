@@ -364,6 +364,33 @@
         o('Burn ore for heat.', { ore: -16, morale: 1 }, 'Furnaces roar. The ore stockpile shrinks.'),
         o('Keep everything running.', { energy: -5, economy: 2 }, 'Factories keep working while the batteries drain.')
       ]
+    },
+    {
+      id: 'water_contamination', art: 'medical', crisis: true, title: 'Water Contamination',
+      body: 'A toxin has slipped into the ice-melt tanks. Every district is waiting for clean water.',
+      options: [
+        o('Flush the reserves.', { ore: -16, security: 1 }, 'The toxin is gone. So is a month of ice.'),
+        o('Ration every district.', { morale: -5, economy: 2 }, 'The taps run slowly, but the contamination stays contained.'),
+        o('Buy clean water off-world.', { gold: -16, energy: 1 }, 'The cargo arrives in time. The treasury takes the hit.')
+      ]
+    },
+    {
+      id: 'crop_blight', art: 'medical', crisis: true, title: 'Crop Blight',
+      body: 'A fungus is spreading through the habitat gardens. The next harvest is at risk.',
+      options: [
+        o('Burn the infected gardens.', { ore: -12, energy: 2, morale: -2 }, 'The fungus is stopped, but the gardens are lost.'),
+        o('Save seed for next season.', { economy: -5, morale: 2 }, 'The harvest is delayed while seed stock is set aside.'),
+        o('Buy imported food.', { gold: -16, economy: 1 }, 'Imports keep the markets supplied, at a steep price.')
+      ]
+    },
+    {
+      id: 'navigation_blackout', art: 'storm', crisis: true, title: 'Navigation Blackout',
+      body: 'A relay failure has blinded the main shipping lanes. Supply ships are already overdue.',
+      options: [
+        o('Power down nonessential systems.', { energy: -6, security: 2, morale: 1 }, 'The relay comes back online, but several districts lose power.'),
+        o('Guide ships by hand.', { morale: -5, energy: 2 }, 'The ships arrive safely. The crews are exhausted.'),
+        o('Hire private navigators.', { gold: -12, economy: 1, security: -1 }, 'Trade resumes, but the navigators charge a premium and patrols thin out.')
+      ]
     }
   ];
 
