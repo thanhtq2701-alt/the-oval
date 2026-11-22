@@ -141,7 +141,7 @@ Còn mở: không có.
 - Cân bằng lại theo dữ liệu thật (branch `balance_solo_N` cho chơi đơn, `balance_multi_N` cho Fleet Council).
 
 **Giai đoạn 2 — Chiều sâu nội dung (1–2 tháng)**
-- Fleet Council: vai trò cho từng pilot (không thêm phiếu); thêm tình huống/khủng hoảng (hiện 34 tình huống, 10 khủng hoảng); công trình Lv4–5; ngoại giao có cấu trúc (trao đổi, liên minh).
+- Fleet Council: vai trò cho từng pilot (không thêm phiếu); thêm tình huống/khủng hoảng (hiện 37 tình huống, 10 khủng hoảng); công trình Lv4–5; ngoại giao có cấu trúc (trao đổi, liên minh).
 - Chơi đơn: ~~đồng bộ bối cảnh vũ trụ~~ (đã làm: 698 đoạn chữ viết lại, số liệu giữ nguyên); ~~cơ chế kế nhiệm~~ (chốt: không có); ~~chọn độ dài ván 20/30/40~~ (đã làm; điều kiện tuyến truyện cho ván ngắn chỉnh ở `balance_solo_1`).
 - Kết nối hai chế độ: kết quả The Oval mở khóa danh hiệu/giao diện trong hồ sơ pilot.
 
