@@ -301,6 +301,33 @@
         o('Leave a research probe.', { energy: 4, ore: -4 }, 'The probe sends back efficient orbit data.')
       ]
     },
+    {
+      id: 'dockworkers_festival', art: 'festival', title: "Dockworkers' Festival",
+      body: 'The dock crews have kept the trade lanes moving through a long season. They want one day to celebrate.',
+      options: [
+        o('Sponsor the station fair.', { morale: 5, gold: -12 }, 'Music and food fill the docks. The treasury pays the bill.'),
+        o('Give crews a paid holiday.', { morale: 4, economy: -2 }, 'The crews rest. Cargo waits one more day.'),
+        o('Keep the docks running.', { economy: 5, morale: -3 }, 'Trade keeps flowing, but the crews feel overlooked.')
+      ]
+    },
+    {
+      id: 'beacon_auction', art: 'planet', title: 'Beacon Auction',
+      body: 'A navigation beacon at a busy junction is up for sale. Several worlds have sent bidders.',
+      options: [
+        o('Buy the beacon rights.', { security: 5, gold: -12 }, 'Your patrols gain a clear view of the junction.'),
+        o('Lease access to the beacon.', { gold: 12, security: -1 }, 'The lease brings in credits, though access is shared.'),
+        o('Let a rival claim it.', { economy: 4, security: -2 }, 'Trade continues, but your patrols lose a useful vantage point.')
+      ]
+    },
+    {
+      id: 'hydroponics_show', art: 'medical', title: 'Hydroponics Show',
+      body: 'Gardeners from every ring have brought their best crops to the annual hydroponics show.',
+      options: [
+        o('Fund the winning garden.', { morale: 4, energy: -2 }, 'The winning crew earns a place of honour. The grow lights draw more power.'),
+        o('Share the seed stock.', { economy: 4, morale: -2 }, 'The seeds spread to new gardens, though the contest feels less special.'),
+        o('Sell the harvest contract.', { gold: 12, economy: -1 }, 'A trader pays well for next season’s harvest.')
+      ]
+    },
     // ── Crises: every option costs about 3 points of value; the crew chooses the least bad. ──
     {
       id: 'meteor_shower', art: 'asteroid', crisis: true, title: 'Meteor Shower',
